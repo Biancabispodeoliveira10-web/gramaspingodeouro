@@ -88,6 +88,9 @@ h2 { margin: 0; font-size: clamp(32px, 4vw, 46px); line-height: 1.12; letter-spa
 .footer-inner > p { max-width: 500px; color: #b9c9be; font-size: 13px; line-height: 1.55; }
 .back-top { color: var(--lime); font-size: 13px; text-decoration: none; }
 .footer-bottom { display: flex; justify-content: space-between; padding-block: 15px; border-top: 1px solid #315142; color: #b9c9be; font-size: 11px; }
+@media (min-width: 761px) and (max-width: 1024px) {
+  .hero { min-height: min(650px, 78vh); background-position: 42% center; background-size: cover; }
+}
 @media (max-width: 760px) {
   .container { width: min(100% - 36px, 560px); }
   .nav-wrap { min-height: 68px; }
@@ -127,22 +130,12 @@ h2 { margin: 0; font-size: clamp(32px, 4vw, 46px); line-height: 1.12; letter-spa
 }
 
 
-.phone-link { color: var(--forest); text-align: center; font-size: 13px; font-weight: 650; text-underline-offset: 3px; }
+.phone-link { display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: var(--forest); text-align: center; font-size: 13px; font-weight: 650; text-decoration: none; }
+.phone-icon { width: 18px; height: 18px; flex: 0 0 18px; fill: currentColor; }
 
 
 
 .care-tip { margin: 0 0 21px; padding: 12px 14px; color: #46594c; background: #f3f7ef; border-left: 3px solid #78a95a; border-radius: 0 8px 8px 0; font-size: 13px; }
 .care-tip strong { color: var(--forest); }
-
-
-
-
-
-
-
-
-
-
-
 
 
