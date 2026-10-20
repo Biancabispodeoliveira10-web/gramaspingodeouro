@@ -137,5 +137,9 @@ h2 { margin: 0; font-size: clamp(32px, 4vw, 46px); line-height: 1.12; letter-spa
 
 .care-tip { margin: 0 0 21px; padding: 12px 14px; color: #46594c; background: #f3f7ef; border-left: 3px solid #78a95a; border-radius: 0 8px 8px 0; font-size: 13px; }
 .care-tip strong { color: var(--forest); }
+.footer-location { padding-bottom: 20px; }
+.footer-location a { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; padding: 12px 22px; border-radius: 999px; color: var(--deep); background: var(--lime); font-size: 15px; font-weight: 700; text-decoration: none; transition: background .2s ease, transform .2s ease; }
+.footer-location a:hover { background: var(--white); transform: translateY(-2px); }
+@media (max-width: 760px) { .footer-location a { width: 100%; } }
 
 
